@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+
+<body>
+    <img src="./image/main.jpeg" alt="main_page_photo" width="20%">
+    <h1>
+        &#12296;Introducing About Sejun!&#12297;
+    </h1>
+
+    <hr>
+
+    <h2>
+        Personal Info
+    </h2>
+
+    <ul>
+        <li>Name : Sejun</li>
+        <li>Nationality : Korea, Republic of</li>
+        <li>Born : 1998</li>
+    </ul>
+
+    <hr>
+
+    <h2>&#8594;Have been to</h2>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>
+                        No.
+                    </th>
+                    <th>
+                        Where
+                    </th>
+                    <th>
+                        When
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>New Zealand</td>
+                    <td>2008 Summer</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Japan</td>
+                    <td>2013 Summer</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>East Europe</td>
+                    <td>2019 Spring</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Spain/Portugal</td>
+                    <td>2019 Winter</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Japan(osaka,kyoto)</td>
+                    <td>2023 Summer</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Malaysia</td>
+                    <td>2023 Summer ~ 2024 Spring</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Taiwan</td>
+                    <td>2023 Fall</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Thailand</td>
+                    <td>2023 Winter</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Indonesia</td>
+                    <td>2023 Winter</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>China(Shanghai)</td>
+                    <td>2024 Spring</td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td>Japan(Fukuoka)</td>
+                    <td>2024 Spring</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td>China(Nanchang)</td>
+                    <td>2024 Spring</td>
+                </tr>
+                <tr>
+                    <td>13.</td>
+                    <td>Hongkong, Macau, China</td>
+                    <td>2024 Summer</td>
+                </tr>
+                <tr>
+                    <td>14.</td>
+                    <td>China(Chengdu, Chongqing)</td>
+                    <td>2025 Winter</td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td>Thailand(Bangkok)</td>
+                    <td>2025 Winter</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div> <a href="travel.html"><b>Photos about trips</b></a></div>
+
+    <h2>Any Commets to me?</h2>
+    <p>This part not fully developed.. Cannot leave comments to me</p>
+    <form action="submit.html">
+        <h3>Required</h3>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" id="username" name="username" required minlength="3"
+                maxlength="20">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required minlength="4"
+                maxlength="10">
+        </div>
+        <h3>Optional</h3>
+        <div>
+            <label for="sex">Male</label>
+            <input type="radio" name="sex" id="sex">
+            <label for="sex">Female</label>
+            <input type="radio" name="sex" id="sex">
+        </div>
+        <div>
+            <label for="age">How old are you?</label>
+            <input type="number" name="age" id="age" placeholder="Your age" min="1" max="100">
+        </div>
+        <div>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" placeholder="Write ur email">
+        </div>
+        <h3>Comment</h3>
+        <div>
+            <textarea rows="5" cols="40" name="comment" id="comment"></textarea>
+        </div>
+        <button type="submit">Save your comment!</button>
+
+    </form>
+</body>
+
+</html>
