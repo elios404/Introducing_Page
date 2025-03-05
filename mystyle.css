@@ -1,0 +1,20 @@
+h1 {
+    color: darkblue;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(67, 65, 65);
+    font-weight: 400;
+}
+
+button {
+    color: lightblue;
+    background-color: black;
+}
+
+table {
+    text-align: center;
+}
